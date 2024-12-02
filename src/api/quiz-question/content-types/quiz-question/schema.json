@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quiz_questions",
+  "info": {
+    "singularName": "quiz-question",
+    "pluralName": "quiz-questions",
+    "displayName": "Quiz Question",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "englishQuestion": {
+      "type": "richtext",
+      "maxLength": 255
+    },
+    "options": {
+      "type": "json"
+    },
+    "englishCorrectAnswer": {
+      "type": "text"
+    },
+    "questionId": {
+      "type": "uid",
+      "targetField": "englishCorrectAnswer"
+    },
+    "englishEexplanation": {
+      "type": "text"
+    },
+    "tamilCorrectAnswer": {
+      "type": "json"
+    },
+    "tamilExplanation": {
+      "type": "text"
+    },
+    "tamilQustion": {
+      "type": "blocks"
+    }
+  }
+}

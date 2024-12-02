@@ -11,13 +11,18 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@strapi/helper-plugin": "^4.25.12",
     "@strapi/plugin-cloud": "5.1.1",
     "@strapi/plugin-users-permissions": "5.1.1",
+    "@strapi/provider-email-nodemailer": "^5.4.2",
     "@strapi/strapi": "5.1.1",
-    "better-sqlite3": "11.3.0",
+    "better-sqlite3": "^11.6.0",
+    "nvm": "^0.0.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "strapi-import-export": "^0.0.1",
+    "strapi-plugin-import-export-content": "^0.4.2",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
@@ -32,5 +37,6 @@
   },
   "strapi": {
     "uuid": "7f05bd3b-ee75-448a-b0d5-8c64ba63e926"
-  }
+  },
+  "type": "commonjs"
 }
